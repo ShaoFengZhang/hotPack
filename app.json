@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F2F2F2",
+    "navigationBarTitleText": "购买iphone装x",
+    "navigationBarTextStyle":"black"
+
+  }
+}

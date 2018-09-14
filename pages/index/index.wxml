@@ -1,0 +1,31 @@
+<view class='bg'>
+    <scroll-view scroll-y style="height: 100vh;">
+        <view class='title'>购iPhoneXS的钱已到账</view>
+
+        <view class='imgicon'>
+            <image src='/assets/img.jpg' />
+        </view>
+
+        <input type='text' maxlength="14" placeholder="请输入姓名" placeholder-class="inputplace" value='{{inputvalue}}' bindinput="getinputvalue" bindfocus="inputfocus"></input>
+
+        <view class='startBtn' bindtap='startGame'>生成装x图</view>
+        <view class='adBox'>
+            <view class='adTitle'>
+                更多好玩
+            </view>
+            <view class='moreGame' wx:for='{{miniProgram}}' wx:key='index'>
+                <navigator class='' target="miniProgram" open-type="navigate" app-id="{{item.appid}}" path="/pages/index/index" extra-data="" version="release">
+                    <image src='{{item.logo}}' />
+                    <view class='mininame'>{{item.title}}</view>
+                    <view class='hot'>{{item.heat}}人在玩</view>
+                </navigator>
+            </view>
+        </view>
+
+    </scroll-view>
+
+</view>
+
+
+
+<canvas canvas-id="canvas" style="width:{{bgimgW}}px;height:{{bgimgH}}px;display:block;position:absolute; bottom:1500px" />

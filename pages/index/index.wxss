@@ -1,0 +1,92 @@
+.bg {
+    overflow: hidden;
+    background-color: rgb(242, 242, 242);
+    border-top: 2rpx solid gray;
+}
+
+.title {
+    height: 100rpx;
+    color: rgb(255, 164, 68);
+    text-align: center;
+    line-height: 100rpx;
+    font-size: 36rpx;
+}
+
+.imgicon image {
+    display: block;
+    width: 640rpx;
+    height: 550rpx;
+    margin: 20rpx auto;
+}
+
+input {
+    width: 710rpx;
+    height: 70rpx;
+    border: 2rpx solid black;
+    margin: 80rpx auto 0;
+    border-radius: 6rpx;
+    font-size: 30rpx;
+    line-height: 70rpx;
+}
+
+.inputplace {
+    font-size: 30rpx;
+}
+
+.startBtn {
+    width: 710rpx;
+    height: 80rpx;
+    margin: 30rpx auto;
+    text-align: center;
+    background-color: rgb(255, 164, 68);
+    border-radius: 6rpx;
+    color: white;
+    line-height: 80rpx;
+    font-size: 34rpx;
+}
+
+.adBox {
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.adTitle {
+    width: 100%;
+    height: 80rpx;
+    text-align: center;
+    font-size: 36rpx;
+    line-height: 80rpx;
+    margin: 0 auto;
+    border-bottom: 2rpx solid gray;
+}
+
+.moreGame {
+    width: 750rpx;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20rpx 20rpx;
+    border-bottom: 2rpx solid gray;
+    box-sizing: border-box;
+}
+
+.moreGame image {
+    width: 150rpx;
+    height: 150rpx;
+    float: right;
+}
+
+.mininame {
+    width: 540rpx;
+    float: left;
+    font-size: 34rpx;
+    margin-top: 10rpx;
+}
+
+.hot {
+    width: 540rpx;
+    float: left;
+    font-size: 26rpx;
+    color: gray;
+    margin-top: 52rpx;
+}
